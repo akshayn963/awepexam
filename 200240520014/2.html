@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <link rel="stylesheet" href="2.css">
+   <script src="2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  
+   <div class="container border text-light" style="border-color:black !important;color:red !important;font-weight: bolder;">
+    <div class="jumbotron  mt-1 p-0">
+        <h1 >registration form :</h1>
+     </div>
+
+        <form onsubmit="return validation()">
+            <div class="form-group">
+                <label for="username" class="form-text">Username :</label>
+                <input type="text" class="form-control" id="username">
+            </div>
+           
+            <div class="form-group">
+                <label for="userPass" class="form-text">password :</label>
+                <input type="password" class="form-control" id="userPass">
+            </div>
+            <div class="form-group">
+                    <label for="userEmail" class="form-text">Email :</label>
+                    <input type="email" class="form-control" id="userEmail">
+            </div> 
+            <div class="form-group">
+                <button type="submit" class="form-control btn btn-md btn-primary text-light">submit</button>
+            </div>    
+        </form>
+     
+        <div id="outputscr">
+            <div class="ref-table" style="visibility:hidden;">
+            <div id="refuname"> reference username</div>
+            <div id="refpass"> reference password</div>
+            <div id="refemail"> reference email</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

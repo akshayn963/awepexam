@@ -1,0 +1,19 @@
+.big-banner
+{
+    background:url(https://picsum.photos/id/1050/1200/1000?greyscale) no-repeat fixed;
+    background-position: cover;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.navbar-brand{
+font-size:40px;
+color:black !important;
+}
+
+.navbar-link
+{
+    font-size:30px;
+    color:black !important;
+    margin-right: 10px;
+}

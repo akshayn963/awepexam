@@ -1,0 +1,8 @@
+body{
+    margin-top:60px;
+    background:url(https://picsum.photos/id/1061/1200/1000?greyscale) no-repeat fixed;
+    background-position: cover;
+    background-size: cover;
+    object-fit: cover;
+    
+}
